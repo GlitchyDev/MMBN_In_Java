@@ -1,0 +1,25 @@
+package GlitchyDev.States;
+
+/**
+ * Created by Robert on 4/18/2017.
+ */
+public enum GameState {
+    TITLE_SCREEN_START,
+    TITLE_SCREEN_IDLE,
+    TILE_SCREEN_MENU,
+    TITLE_SCREEN_TRANSITION,
+    TILE_SCREEN_TRANSITION_2,
+
+    BATTLE_START, // Enemies spawn
+    ENTER_CHIP_MENU,
+    CHIP_MENU,
+    CHIP_MENU_CONFIRM,
+    BATTLE_RESUME,
+
+    BATTLE,
+    BATTLE_LOSE,
+    BATTLE_GAME_OVER,
+    BATTLE_WIN,
+    BATTLE_REWARD,
+    BETA_SCREEN
+}
